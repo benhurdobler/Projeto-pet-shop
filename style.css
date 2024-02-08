@@ -1,0 +1,131 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    margin: 24px 0 50px 50px;
+}
+
+.link-header{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.button-header{
+    background: #665AE1;
+    border-radius: 20.5px;
+    width:130px; 
+    height:41px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29px;
+    cursor:pointer;
+
+}
+
+
+.img-logo{
+    width: 368px;
+    height: 300px;
+    margin-left: 120px;
+    display: inline-block;
+
+}
+
+section{
+    display: inline-block;
+    margin-left: 86px;
+
+}
+
+h1{
+    color: #515151;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 122px;
+    margin-top: 10px;
+
+}
+
+h2{
+    color: #515151;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 38px;
+}
+
+p{
+    color: #848484;
+    font-weight: 400;
+    line-height: 29px;
+    font-size: 24px;
+    width: 515px;
+    margin-top: 32px;
+}
+
+.button-explore{
+    border-radius: 20.5px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    border:none;
+    cursor:pointer;
+    margin-top: 35px;
+    box-shadow: 0px 4px 10px 0px #000;
+}
+
+@media (max-width:600px){
+    header{
+        display:none;
+    }
+
+    .img-logo{
+        width: 100vw;
+        height: 60%;
+        margin: 130px 2px 334px 55px;
+        display:block;
+        position: relative;
+        top:200px;
+    }
+
+    section{
+        height: 40%;
+        width: 100%;
+        display: block;
+        position: relative;
+        bottom: 100px;
+        left:50px;
+    }
+
+    p{
+        display: none;
+    }
+
+    h1{
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        line-height: normal;
+    }
+
+    h2{
+        font-size: 30px;
+        line-height: normal;
+        width: 232px;
+        height: 37px;
+    }
+}
